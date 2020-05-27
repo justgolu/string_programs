@@ -8,5 +8,10 @@ for i in range(0, num):
     j = j-1
 print("The reversed string: ",revstr)
 
+if str == revstr:
+    print("String is palindrome")
+else:
+    print("String is not a palindrome")
+
 
 
